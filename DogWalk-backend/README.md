@@ -41,22 +41,3 @@ Api controllers
 ~~~bash
 dotnet aspnet-codegenerator controller -name WalkOffersController  -m  App.Domain.WalkOffer       -dc AppDbContext -outDir ApiControllers -api --useAsyncActions -f
 ~~~
-
-// RoleId for Admin
-76a0cbcd-3592-40c8-9439-1ff9d936ac39
-
-// UserId for Admin
-dd3dff8a-7a83-439a-8d1a-37d56f116a0b
-
-## Docker
-
-~~~bash
-docker buildx build --progress=plain --force-rm --push -t akaver/webapp:latest . 
-
-# multiplatform build on apple silicon
-# https://docs.docker.com/build/building/multi-platform/
-docker buildx create --name mybuilder --bootstrap --use
-dock
-
-
-~~~
