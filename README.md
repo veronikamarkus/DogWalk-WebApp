@@ -4,8 +4,8 @@ This project is a full-stack web application for dog walks bookings, it allows d
 
 ## Project Structure
 
-- **/backend**: Contains the .NET API for the backend.
-- **/frontend**: Contains the Next.js React frontend for the web app.
+- **/DogWalk-backend**: Contains the .NET API for the backend.
+- **/DogWalk-frontend**: Contains the Next.js React frontend for the web app.
 
 ## Prerequisites
 
@@ -23,14 +23,14 @@ Before running the project, ensure you have the following installed:
 
 For the **.NET backend**, follow these steps in **JetBrains Rider**:
 
-1. Navigate to the `//DogWalk-backend` directory.
+1. Navigate to the `/DogWalk-backend` directory.
 2. Follow the instructions in the [Backend README](./DogWalk-backend/README.md) to set up and run the backend using Rider.
 
 ### 2. Frontend Setup (VSCode)
 
 For the **Next.js frontend**, follow these steps in **Visual Studio Code (VSCode)**:
 
-1. Navigate to the `//DogWalk-frontend` directory.
+1. Navigate to the `/DogWalk-frontend` directory.
 2. Follow the instructions in the [Frontend README](./DogWalk-frontend/README.md) to set up and run the frontend using VSCode.
 
 ---
