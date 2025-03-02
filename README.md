@@ -1,6 +1,8 @@
 # DogWalk WebApp
 
-This project is a full-stack web application for dog walks bookings, it allows dog owners to find dog walkers and dog walkers to accept or decline dog walks, both can also track current walks and walks history. It includes a **.NET backend** and a **Next.js with React frontend**. The application allows users to manage dog walking activities, view profiles, and track walk offers.
+This project is a full-stack web application designed for booking dog walks. It enables dog owners to find and book dog walkers, while allowing dog walkers to accept or decline walk requests. Both owners and walkers can track current and past walks.
+
+The application features a .NET backend and a Next.js with React frontend. Users can manage their dog walking activities, view profiles, and track walk offers. It supports three user roles: dog owner, dog walker, and admin. Security is handled using JWT tokens.
 
 ## Project Structure
 
