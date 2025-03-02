@@ -8,8 +8,8 @@ services:
     volumes:
       - sql-volume:/var/lib/postgresql/data
     environment:
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=PASSWORD
+      - POSTGRES_USER=USERNAME
     restart: on-failure
     logging:
       options: 
@@ -27,7 +27,7 @@ services:
         max-size: 10m
         max-file: 3
     environment:
-      ConnectionStrings__DefaultConnection: "Host=sql;Port=5432;Database=dogWalk;Username=postgres;Password=postgres"
+      ConnectionStrings__DefaultConnection: "Host=sql;Port=5432;Database=dogWalk;Username=USERNAME;Password=PASSWORD"
     depends_on:
       - sql
 
